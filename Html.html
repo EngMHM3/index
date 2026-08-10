@@ -1,17 +1,191 @@
-<html lang="fa" dir="rtl">
-<head>
-<title>آموزش زبان برنامه نویسی html</title>
-</head>
+@font-face
+{
+	font-family: 'iran';
+	src: url('IRAN_semiBold.ttf');
+}
+html
+{
+    font-family: iran, Tahoma, sans-serif;
+	background-color: #EEEEED
+}
 
-<body>
+body
+{
+	margin : 0;
+	cursor: default;
+}
 
-<p>
-1. از محیط ++notepad استفاده می‌کنیم که وابسته به محیط نشویم.
-</p>
+#container
+{
+	width: 90%;
+	margin: 0 auto 0;
+}
 
-<p>
-2. در html همه چیز در tag ها قرار دارد. به عنوان مثال همه صفحات با &lt;html&gt; شروع می‌شود و با &lt;html/&gt; تمام می‌شوند.
-</p>
+#header
+{
+	background-color : #45454D;
+	position: fixed;
+	top: 25px;
+	left: 10%;
+	margin: 1px auto 0;
+	width:80%;
+	height:60px;
+	border-radius: 10px;
+	color:white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.3vw;
+	font-family:sahel;
+	text-shadow: 0px 0px 5px silver;
+}
+		
+#middle
+{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	height: auto;
+	margin: 8% 0 0 0px;  
+}
+			
+#rl
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 21%;
+	height: auto;
+	min-height: 424px;
+	margin: 2% 0;
+	background-color: #DEB887;
+	border-radius: 10px;
+}
+	
+#content
+{
+	display: flex; 
+	justify-content: space-between;
+	width: 55%;
+	height: auto;
+	min-height: 424px;
+	margin: 2% 0;
+	background-color: #DEB887;
+	border-radius: 10px;
+	justify-content: center;	
+}
+	
+#footer
+{
+	display: flex;
+	background-color : #45454D;
+	width: 100%;
+	height:35px;
+	border-radius: 10px;
+	margin: 20px 0 20px 0;
+	font-size: 18px;
+	font-family:sahel;
+	color: white;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+}
+	
+.menu-title
+{
+	display: flex;
+	width: 85%; 
+	height: 45px;
+	background-color: #009BA1;
+	justify-content: center;
+	align-items: center;
+	margin: 8% 2% 0% 2%;
+	border-radius: 13px;
+	color:white;
+	font-family:sahel;
+	font-size:23px;
+}
+	
+ul
+{
+	list-style: none;
+	padding:0;
+}
 
-</body>
-</html>
+.menu
+{
+	width: 70%;
+	height: 80%;
+}
+	
+.menu li
+{
+	display: flex;
+	width: 100%;
+	height: 34px;
+	background-color: #EEEEED;
+	margin:8px auto;
+	border-radius: 11px; 
+	font-family: sahel;
+	font-size: 13px;
+	justify-content: center;
+	align-items: center;
+}
+
+.menu a
+{	
+	display:flex;
+	width: 100%;
+	height: 100%;
+    text-decoration: none;
+    color: rgba(51,51,51,1);
+	justify-content: center;
+	align-items: center;
+}
+
+.menu li:hover
+{
+    background-color: #FF4747;
+    cursor: pointer;
+}
+
+a:Active
+{
+	color: white;
+}
+
+.content-a
+{
+	display: flex;
+	width: 590px;
+	height:auto;
+	background-color: rgba(220,220,220,0.4);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+	margin:3% auto 3% auto;
+	outline: 1px #45454D solid;
+    flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.content-c
+{
+	background-color:#009BA1;
+	width: 90%;
+	height: 45px;
+	border-radius: 13px;
+	margin:10px 0 0 0;
+	color: white;
+	text-align: center;
+	font-family: sahel;
+	font-size:2vw;
+}
+
+.content-b
+{
+	font-size: 26px;
+	margin: -9px 15px 0px 15px;
+	text-align: justify;
+	line-height:1.7;
+}
