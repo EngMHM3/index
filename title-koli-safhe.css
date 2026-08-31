@@ -60,6 +60,14 @@
     gap: 10px;
 }
 
+.title-koli-safhe h2{
+    font-size: 31px;
+}
+
+.title-koli-safhe h4{
+    font-size: 10px;
+}
+
 .title-koli-safhe-content a{
     width: 160px;
     height: 160px;
