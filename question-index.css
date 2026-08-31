@@ -108,8 +108,9 @@
     }
 
     .question-me details summary{
-        font-size: 17px;
+        font-size: 22px;
         padding: 5px;
+        font-weight: bolder;
     }
 
     .question-me details p{
