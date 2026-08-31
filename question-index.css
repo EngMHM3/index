@@ -97,6 +97,7 @@
 
     .question-me details{
         width: 70%;
+        background-color: rgba(206, 28, 66, 0.906);
     }
 
     .question-me span{
