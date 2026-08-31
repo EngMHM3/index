@@ -7,14 +7,14 @@
 }
 
 .title-koli-safhe h2{
-    padding-top: 15px;
     text-align: center;
+    font-size: 45px;
 }
 
 .title-koli-safhe h4{
     text-align: center;
-    margin-top: -32px;
-    padding-bottom: 95px;
+    font-size: 16px;
+    padding-bottom: 60px;
 }
 
 .title-koli-safhe-content{
@@ -47,10 +47,22 @@
 .title-koli-safhe-content a:hover{
     background-color: rgb(181, 219, 213);
     transform: scale(1.16);
-    margin: 0 auto;
     box-shadow: 0 0 40px rgba(75, 117, 111, 0.5);
     cursor: pointer;
     color: black;
     font-size: 40px;
     border: 1px rgba(1, 1, 1, 0.3) groove;
+}
+
+@media (max-width: 768px){
+.title-koli-safhe-content{
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+
+.title-koli-safhe-content a{
+    width: 160px;
+    height: 160px;
+    font-size: 27px;
+}
 }
