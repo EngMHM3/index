@@ -1,0 +1,98 @@
+.title-koli-safhe{
+    display: block;
+    padding: 10px 0 80px;
+    background-color: whitesmoke;
+    width: 100%;
+    height: auto;
+}
+
+.title-koli-safhe h4{
+    text-align: center;
+    font-size: 16px;
+    padding-bottom: 30px;
+}
+
+.title-koli-safhe-content{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 25px;
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.title-koli-safhe-content a{
+    display: flex;
+    background-color: rgb(75, 117, 111);
+    width: 190px;
+    height: 190px;
+    margin: 0 auto;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: 1s; 
+    border-radius: 10px;
+    text-shadow: 0 0 2px black;
+    text-decoration: none;
+}
+
+.title-koli-safhe-content a:hover{
+    background-color: rgb(181, 219, 213);
+    transform: scale(1.16);
+    box-shadow: 0 0 40px rgba(75, 117, 111, 0.5);
+    cursor: pointer;
+    color: black;
+    font-size: 40px;
+    border: 1px rgba(1, 1, 1, 0.3) groove;
+}
+
+@media (max-width: 1150px){
+.title-koli-safhe-content{
+    grid-template-columns: repeat(4,1fr);
+    gap: 25px;
+}
+
+.title-koli-safhe-content a{
+    width: 150px;
+    height: 150px;
+    font-size: 30px;
+}
+
+.title-koli-safhe-content a:hover{
+    transform: scale(1.16);
+    font-size: 40px;
+}
+}
+
+@media (max-width: 768px){
+.title-koli-safhe-content{
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    padding: 0;
+}
+
+.title-koli-safhe h2{
+    font-size: 33px;
+}
+
+.title-koli-safhe h4{
+    font-size: 13px;
+    padding: 0;
+}
+
+.title-koli-safhe-content a{
+    width: 100px;
+    height: 100px;
+    font-size: 20px;
+    flex-shrink: 0;
+}
+
+.title-koli-safhe-content a:hover{
+    transform: scale(1.05);
+    font-size: 28px;
+}
+}   
