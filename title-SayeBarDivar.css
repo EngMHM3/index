@@ -14,7 +14,7 @@
 
 .title-koli-safhe-content{
     display: grid;
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: repeat(7,1fr);
     gap: 25px;
     width: 90%;
     height: auto;
@@ -24,8 +24,8 @@
 .title-koli-safhe-content a{
     display: flex;
     background-color: rgb(75, 117, 111);
-    width: 190px;
-    height: 190px;
+    width: 130px;
+    height: 130px;
     margin: 0 auto;
     font-size: 30px;
     font-weight: bold;
@@ -51,13 +51,13 @@
 
 @media (max-width: 1150px){
 .title-koli-safhe-content{
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(5,1fr);
     gap: 25px;
 }
 
 .title-koli-safhe-content a{
-    width: 150px;
-    height: 150px;
+    width: 110px;
+    height: 110px;
     font-size: 30px;
 }
 
