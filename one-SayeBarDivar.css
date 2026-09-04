@@ -14,11 +14,12 @@
 
 .one p{
     margin: -20px 400px 0 0;
-    text-shadow: 0 0 20px black;
+    text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.4);
+    text-transform: uppercase;
     width: auto;
     height: auto;
     text-align: center;
-    color: rgb(44, 41, 41);
+    color: #2c1e0f;
     font-size: 40px;
     line-height: 2.3;
     font-weight: bolder;
