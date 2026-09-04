@@ -40,6 +40,6 @@
     .one p{
         font-size: clamp(20px, 5vw, 32px);
         line-height: 1.8;
-        margin: 10px 120px 0 0;
+        margin: 20px 110px 0 0;
     }
 }
